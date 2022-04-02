@@ -130,12 +130,7 @@
             left: 100%
         }
     }
-#resume {
-    background-image: url(./img/experience.jpg);
-        background-size: cover;
-        background-position: top center;
-        position: relative;
-}
+
 #resume .resume {
     flex-direction: column;
     text-align: center;
