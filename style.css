@@ -21,8 +21,14 @@
         justify-content: center;
     }
 
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        }
+
     #Hello {
-        background-image: url(img/background.jpg);
+        background-image: url(img/cover.jpg);
         background-size: cover;
         background-position: top center;
         position: relative;
@@ -124,8 +130,11 @@
             left: 100%
         }
     }
-
 #resume {
+    background-image: url(./img/experience.jpg);
+        background-size: cover;
+        background-position: top center;
+        position: relative;
 }
 #resume .resume {
     flex-direction: column;
@@ -133,21 +142,81 @@
     max-width: 1500px;
     margin:0 auto;
     padding: 100px 0;
+    
 }
+
 #resume .section-title {
     font-size: 32px;
     font-weight: 300px;
     color: skyblue;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-transform: uppercase;
+    letter-spacing: 1.6px;
+    text-align: center;
 }
 
+#resume .section-title span {
+    color: skyblue
+}
 
+#resume .resume-top p{
+    font-size: 20px;
+    margin-top: 1px;
+    line-height: 30px;
+    font-weight: 20;
+    letter-spacing: 0.8px;
+    color: azure;
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+}
 
+#resume .resume-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: skyblue;
+    margin-top: 50px;
+}
 
+#resume .section-items {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(./img/project.jpg);
+    background-size: cover;
+    margin: 10px 5px;
+    position: relative;
+    overflow: hidden;
+}
 
+.resume .resume-bottom .icon {
+    height: 100px;
+    width: 100px;
+    margin-bottom:20px;
+}
 
+#resume .section-items h2 {
+font-size: 24px;
+color: azure;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
 
+#resume .section-items p {
+    color:azure;
+    text-align: left;
+
+}
 
 
     @keyframes text_reveal { 
