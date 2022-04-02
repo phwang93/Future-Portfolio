@@ -143,7 +143,7 @@
 #resume .section-title {
     font-size: 32px;
     font-weight: 300px;
-    color: skyblue;
+    color: midnightblue;
     margin-bottom: 5px;
     text-transform: uppercase;
     letter-spacing: 1.6px;
@@ -151,7 +151,7 @@
 }
 
 #resume .section-title span {
-    color: skyblue
+    color: midnightblue
 }
 
 #resume .resume-top p{
@@ -160,7 +160,7 @@
     line-height: 30px;
     font-weight: 20;
     letter-spacing: 0.8px;
-    color: azure;
+    color: darkblue;
     flex-basis: 80%;
     display: flex;
     align-items: flex-start;
