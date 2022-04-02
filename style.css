@@ -199,6 +199,17 @@
     overflow: hidden;
 }
 
+#resume .section-items:nth-child(2) {
+    background-image: url(./img/retail.jpg);
+    background-size: cover;
+}
+
+#resume .section-items:nth-child(3) {
+    background-image: url(./img/restaurant.jpeg);
+    background-size: cover;
+}
+
+
 .resume .resume-bottom .icon {
     height: 100px;
     width: 100px;
